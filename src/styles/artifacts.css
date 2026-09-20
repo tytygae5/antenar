@@ -1,0 +1,109 @@
+/* Estilos para o Pacote de Vídeo Aberto e Documento Contínuo */
+
+.artifact-container {
+  position: relative;
+  background-color: #161920;
+  border: 1px solid rgba(16, 163, 127, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+/* Barra de Navegação Sticky */
+.artifact-nav-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: #161920;
+  border-bottom: 1px solid #2a2f3a;
+  padding: 12px 16px;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.artifact-nav-sticky::-webkit-scrollbar {
+  display: none;
+}
+
+.artifact-nav-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  background-color: #232733;
+  color: #c5cdd8;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.artifact-nav-button:hover {
+  background-color: #10a37f;
+  color: #ffffff;
+}
+
+/* Títulos de Seções */
+.artifact-section-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #10a37f;
+  margin: 24px 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Divisores */
+.artifact-section-divider {
+  border-top: 1px solid #2a2f3a;
+  margin: 24px 0;
+}
+
+/* Espaçamento entre Seções */
+.artifact-section-wrapper {
+  margin-bottom: 32px;
+}
+
+.artifact-section-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+/* Botões de Ação Inline */
+.artifact-action-btn {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 8px;
+  background-color: #232733;
+  color: #c5cdd8;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.artifact-action-btn:hover {
+  background-color: rgba(16, 163, 127, 0.2);
+  color: #4ade80;
+}
+
+/* Áreas de Código/Markdown */
+.artifact-code-block {
+  padding: 16px;
+  border-radius: 12px;
+  background-color: #080b12;
+  border: 1px solid #2a2f3a;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 11px;
+  line-height: 1.6;
+  color: #cbd5e1;
+  white-space: pre-wrap;
+  word-break: break-word;
+}

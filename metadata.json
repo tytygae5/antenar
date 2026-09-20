@@ -1,0 +1,10 @@
+{
+  "name": "Remix Atena AI",
+  "description": "Autonomous multi-provider AI agent with dynamic task routing, cost-optimized zero-dollar fallback, and multi-modal support across Puter.js, OpenRouter, Groq, Gemini, DashScope, and Zhipu.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
